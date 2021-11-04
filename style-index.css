@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+html {
+    font-size: 65.5%;
+}
+
+#div1 {
+    background-color: darkred;
+    color: white;
+    font-size: 1.3rem;
+    animation-name: moove;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes moove {
+
+    from {
+        background-color: darkred;
+        color: white;
+        font-size: 1.3rem;
+    }
+
+    to {
+        background-color: pink;
+        color: black;
+        font-size: 1.8rem;
+        width: 50%;
+        height: 10rem;
+        transform: rotate(360deg) scale(1.25);
+    }
+}
+
+#bonus {
+    position: relative;
+    width: 40%;
+    height: 8rem;
+    background-color: yellow;
+    animation-name: go;
+    animation-duration: 15s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes go {
+    from {
+        left: 100%;
+    }
+
+    to {
+        left: 0;
+    }
+}
