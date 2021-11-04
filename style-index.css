@@ -10,8 +10,10 @@ html {
 
 #div1 {
     background-color: darkred;
+    width: 80%;
     color: white;
     font-size: 1.3rem;
+    margin: 25rem auto 0;
     animation-name: moove;
     animation-duration: 10s;
     animation-iteration-count: infinite;
